@@ -1,0 +1,73 @@
+.header {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+
+    margin: 10px 0;
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    margin-top: 0;
+  }
+  
+  .nav > li {
+    color: white;
+  }
+  
+  .nav > li:hover {
+    color: turquoise;
+  }
+  .headers {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Change the background color as needed */ /* Adjust padding as needed */
+    z-index: 1000; /* Ensure the navbar appears above other content */
+  }
+  
+  /* ----------------------- */
+  
+  .productContainer {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .length {
+    color: red;
+    position: relative;
+    top: -0.5rem;
+    font-weight: 900;
+    font-family: cursive;
+  }
+  .products {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  
+  .productDesc {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .add {
+    padding: 5px;
+  }
+  
+  .remove {
+    background-color: grey;
+    color: white;
+  }
+  
