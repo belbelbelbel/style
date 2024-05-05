@@ -9,6 +9,9 @@ import { useState } from 'react';
 import { Scroll } from './Components/Scroll';
 import { Navbar } from './Components/Navbar';
 import { Otp } from './Components/Otp';
+import { UseForm } from './UseForm';
+import { Inputs } from './Inputs';
+import { Dropdown } from './Dropdown';
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
     // </div>
    <div>
     <Navbar/>
-    <Otp/>
+    <UseForm/>
+    <Inputs/>
+    <Dropdown/>
+    {/* <Otp/> */}
      {/* <Scroll/> */}
     {/* <BrowserRouter>
       <Header />
